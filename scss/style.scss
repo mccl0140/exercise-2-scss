@@ -1,0 +1,19 @@
+/*This file imports your scss partials to be compiled into one style sheet. That style sheet can then be attached to your html.*/
+
+//variables
+/*variable are places for sharing information that you want to reuse throughout your stylesheet.
+You can store things like colors, font-stacks or any css value you can think of. Variables are declared using the '$' */
+
+//colors
+$primary: #3498bd;
+$primary-dark: #2980b9;
+$background: #f5f5f5;
+
+//fonts
+$arial: Arial, Helvetica, sans-serif;
+
+body{
+	background-color: $background;
+	font-family: $arial;
+}
+
