@@ -1,1 +1,10 @@
-body{background-color:#f5f5f5;font-family:Arial,Helvetica,sans-serif}
+/*This file imports your scss partials to be compiled into one style sheet. That style sheet can then be attached to your html.*/
+/*variable are places for sharing information that you want to reuse throughout your stylesheet.
+You can store things like colors, font-stacks or any css value you can think of. Variables are declared using the '$' */
+/*Where the meat of your css goes. broke up into modular parts. ie typography, layouts, buttons*/
+body {
+  background-color: #f5f5f5;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/**/
